@@ -1,0 +1,495 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Phở Saigon Holiday Merch</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Literata:ital,opsz,wght@0,7..72,500;0,7..72,600;1,7..72,400;1,7..72,500&display=swap">
+<style>
+/* Layout: a proposal lookbook. Hero names the collection and indexes the three items;
+   each item then gets its own spread (photos + what it is + details), followed by gifting,
+   where it would be sold, the original mockup boards, and what still needs confirming. */
+:root {
+  --paper: #f7efdf;
+  --surface: #fbf6ea;
+  --band: #efe2c8;
+  --ink: #3a2414;
+  --muted: #76594a;
+  --redwood: #7b3e12;
+  --red: #b5402a;
+  --olive: #556b45;
+  --line: rgba(123, 62, 18, .18);
+  --on-accent: #fbf6ea;
+  --scrim: rgba(30, 20, 14, .88);
+  --leather: #8a4128;
+  --font-display: "Literata", Georgia, "Times New Roman", serif;
+  --font-body: "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --step--1: .8125rem;
+  --step-0: 1rem;
+  --step-1: 1.1875rem;
+  --step-2: 1.5rem;
+  --step-3: clamp(1.75rem, 1.3rem + 2vw, 2.375rem);
+  --step-4: clamp(2.25rem, 1.4rem + 3.6vw, 3.75rem);
+  --wrap: 1120px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #1e150f; --surface: #271b13; --band: #2f2117; --ink: #f3e6cf; --muted: #c6ad90;
+    --redwood: #e3a173; --red: #ec8466; --olive: #a6ba8c; --line: rgba(243, 230, 207, .16);
+    --on-accent: #1e150f; --scrim: rgba(10, 7, 5, .92); color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #1e150f; --surface: #271b13; --band: #2f2117; --ink: #f3e6cf; --muted: #c6ad90;
+  --redwood: #e3a173; --red: #ec8466; --olive: #a6ba8c; --line: rgba(243, 230, 207, .16);
+  --on-accent: #1e150f; --scrim: rgba(10, 7, 5, .92); color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--paper); color: var(--ink);
+  font-family: var(--font-body); font-size: var(--step-0); line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+.inner {
+  max-width: var(--wrap); margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.12; text-wrap: balance; margin: 0; }
+p { margin: 0; }
+a { color: var(--redwood); text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; border-radius: 6px; }
+.eyebrow { font-size: var(--step--1); font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--red); }
+.section-head { display: flex; flex-direction: column; gap: 10px; max-width: 62ch; }
+.section-head h2 { font-size: var(--step-3); }
+.section-head p { color: var(--muted); }
+.band { background: var(--band); }
+img { display: block; }
+
+/* Top bar */
+.topbar { border-bottom: 1px solid var(--line); }
+.topbar .inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 14px; }
+.brand { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.wordmark { font-weight: 700; letter-spacing: .02em; color: var(--red); font-size: var(--step-1); text-decoration: none; }
+.brand small { font-size: var(--step--1); color: var(--muted); }
+.topbar nav { display: flex; gap: 20px; flex-wrap: wrap; font-size: var(--step--1); font-weight: 500; }
+.topbar nav a { color: var(--muted); text-decoration: none; }
+.topbar nav a:hover { color: var(--ink); }
+
+/* Hero */
+.hero .inner { padding-block: clamp(36px, 6vw, 72px) clamp(32px, 5vw, 56px); display: flex; flex-direction: column; gap: clamp(28px, 4vw, 44px); }
+.hero-copy { display: flex; flex-direction: column; gap: 18px; max-width: 46rem; }
+.hero h1 { font-size: var(--step-4); letter-spacing: -.01em; }
+.hero h1 em { font-style: italic; font-weight: 500; color: var(--redwood); }
+.lede { font-size: var(--step-1); color: var(--muted); max-width: 44ch; line-height: 1.55; }
+.lineup { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; list-style: none; margin: 0; padding: 0; }
+.lineup a { display: flex; flex-direction: column; gap: 12px; text-decoration: none; color: var(--ink); }
+.lineup .thumb { aspect-ratio: 4 / 5; max-width: 100%; border-radius: 18px; overflow: hidden; background: var(--band); }
+.lineup .thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
+.lineup a:hover .thumb img { transform: scale(1.03); }
+.lineup .meta { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.lineup h3 { font-size: var(--step-2); }
+.lineup span { font-size: var(--step--1); color: var(--muted); text-align: right; }
+
+/* Item spread */
+.item .inner { padding-block: clamp(48px, 7vw, 88px); display: flex; flex-direction: column; gap: 28px; }
+.spread { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: clamp(24px, 5vw, 56px); align-items: start; }
+.copy { display: flex; flex-direction: column; gap: 18px; min-width: 0; }
+.copy > p { color: var(--muted); }
+.specs { margin: 0; display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 10px 20px; padding-top: 16px; border-top: 1px solid var(--line); font-size: .9375rem; }
+.specs dt { color: var(--muted); }
+.specs dd { margin: 0; font-weight: 500; }
+.hex { font-variant-numeric: tabular-nums; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .8125rem; color: var(--muted); }
+
+/* Mug */
+.photo { position: relative; aspect-ratio: 1 / 1; max-width: 100%; border-radius: 22px; overflow: hidden; background: var(--band); }
+.photo img { width: 100%; height: 100%; object-fit: cover; transition: opacity .3s ease; }
+.fading { opacity: 0; }
+.picker { display: flex; flex-direction: column; gap: 10px; }
+.picker-label { font-size: var(--step--1); color: var(--muted); }
+.picker-label strong { color: var(--ink); font-weight: 600; }
+.swatches { display: flex; gap: 10px; flex-wrap: wrap; }
+.swatch {
+  display: inline-flex; align-items: center; gap: 10px; padding: 7px 14px 7px 7px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: inherit; font-size: .875rem; font-weight: 500; cursor: pointer;
+}
+.swatch[aria-pressed="true"] { border-color: var(--redwood); box-shadow: 0 0 0 1px var(--redwood); }
+.dot { width: 26px; height: 26px; border-radius: 50%; position: relative; flex: none; box-shadow: inset 0 0 0 1px rgba(0,0,0,.15); }
+.dot::after { content: ""; position: absolute; inset: 8px; border-radius: 50%; background: var(--dot-in); box-shadow: inset 0 0 0 1px rgba(0,0,0,.12); }
+.wrap-block { display: flex; flex-direction: column; gap: 10px; }
+.wrap-scroll { overflow-x: auto; border-radius: 14px; -webkit-overflow-scrolling: touch; }
+.wrap-scroll img { width: 100%; min-width: 680px; height: auto; transition: opacity .3s ease; }
+.caption { font-size: var(--step--1); color: var(--muted); }
+.swipe-hint { display: none; }
+
+.guide-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px 32px; margin: 0; padding: 0; list-style: none; }
+.guide-grid li { display: flex; flex-direction: column; gap: 2px; padding-top: 12px; border-top: 1px solid var(--line); min-width: 0; }
+.vn { font-family: var(--font-display); font-style: italic; font-size: var(--step-2); color: var(--redwood); line-height: 1.2; }
+.en { font-size: var(--step--1); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--olive); }
+.guide-grid p { font-size: .9375rem; color: var(--muted); margin-top: 4px; }
+.subhead { font-size: var(--step-2); }
+
+/* Pins */
+.pins-board { border-radius: 22px; overflow: hidden; background: var(--leather); }
+.pins-board img { width: 100%; height: auto; }
+.pin-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 14px; list-style: none; margin: 0; padding: 0; }
+.pin-grid li { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.pin-tile { aspect-ratio: 1 / 1; max-width: 100%; border-radius: 14px; background: var(--leather); display: grid; place-items: center; padding: 10px; overflow: hidden; }
+.pin-tile img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.pin-grid .vn { font-size: var(--step-1); }
+.pin-grid .en { font-size: .6875rem; }
+
+/* Tee */
+.tee-gallery { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); grid-template-rows: auto auto; gap: 12px; }
+.tee-gallery figure { margin: 0; border-radius: 18px; overflow: hidden; background: var(--band); }
+.tee-gallery img { width: 100%; height: 100%; object-fit: cover; }
+.tee-gallery .tall { grid-row: span 2; }
+
+/* Gifting */
+.gift-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.gift-list li { display: grid; grid-template-columns: minmax(0, 13rem) minmax(0, 1fr) minmax(0, 9rem); gap: 16px; align-items: baseline; padding-block: 18px; border-bottom: 1px solid var(--line); }
+.gift-list li:first-child { border-top: 1px solid var(--line); }
+.gift-list h3 { font-size: var(--step-1); }
+.gift-list p { color: var(--muted); font-size: .9375rem; }
+.gift-list .pick { font-size: var(--step--1); font-weight: 600; color: var(--olive); text-align: right; }
+
+/* Branches */
+.branch-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.branch { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.branch h3 { font-size: var(--step-2); }
+.branch .tag { font-size: var(--step--1); font-weight: 600; color: var(--olive); }
+.branch p { font-size: .9375rem; color: var(--muted); }
+
+/* Boards */
+.boards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; list-style: none; margin: 0; padding: 0; }
+.board-btn { display: flex; flex-direction: column; gap: 8px; width: 100%; padding: 0; border: 0; background: none; color: var(--ink); font: inherit; text-align: left; cursor: zoom-in; }
+.board-btn .frame { aspect-ratio: 1 / 1; max-width: 100%; border-radius: 14px; overflow: hidden; border: 1px solid var(--line); background: var(--surface); }
+.board-btn img { width: 100%; height: 100%; object-fit: cover; }
+.board-btn span { font-size: .875rem; font-weight: 500; }
+
+.lightbox { position: fixed; inset: 0; z-index: 50; background: var(--scrim); display: grid; place-items: center;
+  padding: calc(16px + env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) calc(16px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+.lightbox img { max-width: 100%; max-height: 86vh; border-radius: 10px; object-fit: contain; }
+.lightbox button { position: absolute; top: calc(14px + env(safe-area-inset-top, 0px)); right: max(14px, env(safe-area-inset-right, 0px));
+  border: 0; border-radius: 999px; padding: 8px 16px; background: var(--surface); color: var(--ink); font: inherit; font-weight: 600; cursor: pointer; }
+
+/* To confirm */
+.confirm-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 40px; list-style: none; margin: 0; padding: 0; }
+.confirm-grid li { display: grid; grid-template-columns: 1.25rem minmax(0, 1fr); gap: 12px; padding-block: 14px; border-bottom: 1px solid var(--line); }
+.box { width: 16px; height: 16px; margin-top: 5px; border: 1.5px solid var(--redwood); border-radius: 4px; }
+.confirm-grid strong { font-weight: 600; }
+.confirm-grid p { color: var(--muted); font-size: .9375rem; }
+
+footer { border-top: 1px solid var(--line); }
+footer .inner { padding-block: 28px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; font-size: var(--step--1); color: var(--muted); }
+footer .tagline { font-family: var(--font-display); font-style: italic; font-size: var(--step-0); color: var(--ink); }
+
+@media (max-width: 960px) {
+  .pin-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .guide-grid, .branch-grid, .boards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .gift-list li { grid-template-columns: minmax(0, 11rem) minmax(0, 1fr); }
+  .gift-list .pick { grid-column: 2; text-align: left; }
+}
+@media (max-width: 760px) {
+  .spread { grid-template-columns: minmax(0, 1fr); }
+  .topbar nav { display: none; }
+  .swipe-hint { display: block; }
+  .confirm-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 560px) {
+  .lineup { grid-template-columns: minmax(0, 1fr); }
+  .lineup .thumb { aspect-ratio: 16 / 10; }
+  .guide-grid, .branch-grid { grid-template-columns: minmax(0, 1fr); }
+  .pin-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .gift-list li { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+  .gift-list .pick { grid-column: auto; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<header class="topbar">
+  <div class="inner">
+    <div class="brand"><a class="wordmark" href="#top">PHỞ SAIGON</a><small>Holiday merch proposal</small></div>
+    <nav aria-label="Sections">
+      <a href="#mug">Mug</a>
+      <a href="#pins">Pins</a>
+      <a href="#tee">Tee</a>
+      <a href="#gifting">Gifting</a>
+      <a href="#boards">Mockups</a>
+      <a href="#confirm">To confirm</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="inner">
+      <div class="hero-copy">
+        <span class="eyebrow">Proposed merch · Holiday season</span>
+        <h1>Take a little of <em>our table</em> home</h1>
+        <p class="lede">Three pieces drawn from the same Vietnam we serve every day: a mug in three colors, a set of six enamel pins, and a Phở Club tee. Made for gifting, and for guests who want to keep something from their visit.</p>
+      </div>
+      <ul class="lineup">
+        <li><a href="#mug">
+          <div class="thumb"><img src="img/mug-redwood.jpg" alt="Redwood Phở Saigon mug" loading="eager"></div>
+          <div class="meta"><h3>The mug</h3><span>3 colors</span></div>
+        </a></li>
+        <li><a href="#pins">
+          <div class="thumb"><img src="img/pins-board.jpg" alt="Six Phở Saigon enamel pins on leather" style="object-position: 30% 50%"></div>
+          <div class="meta"><h3>Enamel pins</h3><span>6 designs</span></div>
+        </a></li>
+        <li><a href="#tee">
+          <div class="thumb"><img src="img/tee-back.jpg" alt="Back of the cream Phở Club tee" style="object-position: 50% 45%"></div>
+          <div class="meta"><h3>Phở Club tee</h3><span>Back print</span></div>
+        </a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- MUG -->
+  <section class="item band" id="mug">
+    <div class="inner">
+      <div class="spread">
+        <div class="photo">
+          <img id="mugPhoto" src="img/mug-cream.jpg" alt="Phở Saigon mug in cream with a terracotta inside and handle" width="700" height="668">
+        </div>
+        <div class="copy">
+          <span class="eyebrow">The mug</span>
+          <h2 class="subhead" style="font-size: var(--step-3)">One drawing, all the way around</h2>
+          <p>A full wrap of little Vietnam scenes around the Phở Saigon badge: phở, bánh mì, iced cà phê sữa, lotus, lanterns, Hạ Long Bay and a river boat. The kind of mug people reach for every morning.</p>
+          <div class="picker">
+            <span class="picker-label">Color: <strong id="colorName">Cream &amp; terracotta</strong></span>
+            <div class="swatches" role="group" aria-label="Choose a mug color">
+              <button type="button" class="swatch" id="sw-cream" data-key="cream" aria-pressed="true">
+                <span class="dot" style="background:#f2e6cf;--dot-in:#b25a3c"></span>Cream
+              </button>
+              <button type="button" class="swatch" id="sw-redwood" data-key="redwood" aria-pressed="false">
+                <span class="dot" style="background:#7b3e12;--dot-in:#faedcd"></span>Redwood
+              </button>
+              <button type="button" class="swatch" id="sw-olive" data-key="olive" aria-pressed="false">
+                <span class="dot" style="background:#556b45;--dot-in:#faedcd"></span>Olive green
+              </button>
+            </div>
+          </div>
+          <dl class="specs">
+            <dt>Cream</dt><dd>Cream outside, terracotta inside and handle</dd>
+            <dt>Redwood</dt><dd>Redwood outside <span class="hex">#7b3e12</span>, cream inside <span class="hex">#faedcd</span></dd>
+            <dt>Olive green</dt><dd>Olive outside <span class="hex">#556b45</span>, cream inside <span class="hex">#faedcd</span></dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="wrap-block">
+        <div class="wrap-scroll">
+          <img id="wrapImg" src="img/wrap-cream.jpg" alt="The full illustrated print of the cream mug, laid flat" width="1272" height="420">
+        </div>
+        <span class="caption">The full print laid flat. It changes with the color you pick above.<span class="swipe-hint"> Swipe sideways to see the whole wrap.</span></span>
+      </div>
+
+      <div class="section-head" style="margin-top: 16px">
+        <h3 class="subhead">What's on the wrap</h3>
+        <p>Every small picture is something from Vietnam, so the mug doubles as a conversation starter.</p>
+      </div>
+      <ul class="guide-grid">
+        <li><span class="vn">Phở</span><span class="en">Noodle soup</span><p>Rice noodles in a slow, fragrant broth with fresh herbs. The bowl our name comes from.</p></li>
+        <li><span class="vn">Bánh mì</span><span class="en">Vietnamese baguette</span><p>Crisp bread, pâté, pickled vegetables, chili and herbs.</p></li>
+        <li><span class="vn">Cà phê sữa đá</span><span class="en">Iced milk coffee</span><p>Strong dark coffee over condensed milk and ice.</p></li>
+        <li><span class="vn">Nón lá</span><span class="en">Leaf hat</span><p>The conical palm-leaf hat worn against sun and rain.</p></li>
+        <li><span class="vn">Hoa mai</span><span class="en">Yellow blossoms</span><p>Apricot blossoms that fill homes in the south during Tết, the Lunar New Year.</p></li>
+        <li><span class="vn">Đèn lồng</span><span class="en">Lanterns</span><p>Red lanterns hung for celebrations and old-town nights.</p></li>
+        <li><span class="vn">Hạ Long</span><span class="en">The bay</span><p>Limestone islands rising out of green water, with a junk boat sailing past.</p></li>
+        <li><span class="vn">Ghe</span><span class="en">River boat</span><p>A rower on the water, a scene from life along Vietnam's rivers.</p></li>
+        <li><span class="vn">Xe đạp</span><span class="en">Bicycle</span><p>Still one of the easiest ways to get around a Vietnamese street.</p></li>
+        <li><span class="vn">Phố cổ</span><span class="en">Old town houses</span><p>Shuttered windows, balconies and tiled roofs, like the old quarters in Hội An.</p></li>
+        <li><span class="vn">Rồng</span><span class="en">Dragon</span><p>A symbol of strength and good fortune in temples and festivals.</p></li>
+        <li><span class="vn">Hoa sen</span><span class="en">Lotus</span><p>Often called Vietnam's national flower. It grows from muddy ponds and still blooms clean.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PINS -->
+  <section class="item" id="pins">
+    <div class="inner">
+      <div class="spread">
+        <div class="pins-board"><img src="img/pins-board.jpg" alt="Six enamel pins on brown leather: a phở bowl, bánh mì, iced coffee, an old town house, a nón lá and an herb sprig with chili and lime" width="1312" height="942"></div>
+        <div class="copy">
+          <span class="eyebrow">Enamel pins</span>
+          <h2 style="font-size: var(--step-3)">Six small favorites</h2>
+          <p>Gold-edged enamel pins in the same drawing style as the mug, so the whole set feels like one family. Easy to collect, easy to gift, and they look good on a tote, a lanyard or a denim jacket.</p>
+          <dl class="specs">
+            <dt>Designs</dt><dd>6, sold as a set or one by one (to decide)</dd>
+            <dt>Finish</dt><dd>Gold outline with colored enamel</dd>
+            <dt>Style</dt><dd>Matches the mug illustrations</dd>
+          </dl>
+        </div>
+      </div>
+      <ul class="pin-grid">
+        <li><div class="pin-tile"><img src="img/pin-pho.jpg" alt="Phở bowl pin"></div><span class="vn">Phở</span><span class="en">Noodle soup</span></li>
+        <li><div class="pin-tile"><img src="img/pin-banhmi.jpg" alt="Bánh mì pin"></div><span class="vn">Bánh mì</span><span class="en">Baguette</span></li>
+        <li><div class="pin-tile"><img src="img/pin-caphe.jpg" alt="Iced coffee pin"></div><span class="vn">Cà phê sữa đá</span><span class="en">Iced coffee</span></li>
+        <li><div class="pin-tile"><img src="img/pin-house.jpg" alt="Old town house with bicycle pin"></div><span class="vn">Phố cổ</span><span class="en">Old town house</span></li>
+        <li><div class="pin-tile"><img src="img/pin-nonla.jpg" alt="Nón lá conical hat pin"></div><span class="vn">Nón lá</span><span class="en">Leaf hat</span></li>
+        <li><div class="pin-tile"><img src="img/pin-herbs.jpg" alt="Herb sprig with chili and lime pin"></div><span class="vn">Rau thơm</span><span class="en">Herbs, chili, lime</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- TEE -->
+  <section class="item band" id="tee">
+    <div class="inner">
+      <div class="spread">
+        <div class="tee-gallery">
+          <figure class="tall"><img src="img/tee-back.jpg" alt="Woman wearing the cream Phở Club tee, seen from the back" width="746" height="1254"></figure>
+          <figure><img src="img/tee-print.jpg" alt="The Phở Club back print: a bowl of phở with chopsticks, Certified pho enthusiast, and the Phở Saigon logo" width="494" height="730"></figure>
+          <figure><img src="img/tee-detail.jpg" alt="Close-up of the distressed Phở Club lettering" width="494" height="512"></figure>
+        </div>
+        <div class="copy">
+          <span class="eyebrow">Phở Club tee</span>
+          <h2 style="font-size: var(--step-3)">For the certified phở enthusiast</h2>
+          <p>A relaxed cream tee with a big vintage-style back print: a full bowl of phở with chopsticks mid-lift, a small dish of sauce on the side, and the Phở Saigon logo underneath. The lettering has a soft, worn-in texture so it looks good from day one.</p>
+          <p>This one is for the regulars. It turns "we're always here" into something they can wear.</p>
+          <dl class="specs">
+            <dt>Color</dt><dd>Cream</dd>
+            <dt>Print</dt><dd>Back: Phở Club, Certified pho enthusiast, Phở Saigon logo</dd>
+            <dt>Fit</dt><dd>Relaxed, boxy cut</dd>
+            <dt>Sizes</dt><dd>To confirm</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GIFTING -->
+  <section class="item" id="gifting">
+    <div class="inner">
+      <div class="section-head">
+        <span class="eyebrow">Gifting this season</span>
+        <h2>Who each piece is for</h2>
+        <p>How we'd talk about the collection in holiday posts, so each item has a clear person in mind.</p>
+      </div>
+      <ul class="gift-list">
+        <li><h3>The coffee lover</h3><p>The one who orders cà phê sữa every visit and wants it at home too.</p><span class="pick">The mug</span></li>
+        <li><h3>The friend who misses Vietnam</h3><p>For anyone who came back from a trip and hasn't stopped talking about it.</p><span class="pick">Mug or pins</span></li>
+        <li><h3>Your Monito Monita</h3><p>An easy pick for the office or barkada exchange that doesn't feel last minute.</p><span class="pick">Pins</span></li>
+        <li><h3>Your regular phở buddy</h3><p>The person you always end up at the table with. A small thank you for all those dinners.</p><span class="pick">Phở Club tee</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- BRANCHES -->
+  <section class="item band" id="branches">
+    <div class="inner">
+      <div class="section-head">
+        <span class="eyebrow">Where it would be sold</span>
+        <h2>At all four branches</h2>
+        <p>Guests buy in store, so the merch becomes one more reason to visit during the holidays.</p>
+      </div>
+      <div class="branch-grid">
+        <article class="branch"><span class="tag">Where it all started</span><h3>Calamba</h3><p>Uno Fuel Station, Milagrosa, Calamba City, Laguna</p></article>
+        <article class="branch"><span class="tag">Laguna</span><h3>Sta. Rosa</h3><p>Paseo 6, Paseo Outlets, Santa Rosa, Laguna</p></article>
+        <article class="branch"><span class="tag">Metro Manila</span><h3>Alabang</h3><p>Westgate Center, Alabang, Muntinlupa</p></article>
+        <article class="branch"><span class="tag">Metro Manila</span><h3>BGC</h3><p>Avida Towers Turf, 34th Street, Bonifacio Global City, Taguig</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOARDS -->
+  <section class="item" id="boards">
+    <div class="inner">
+      <div class="section-head">
+        <span class="eyebrow">Mockup boards</span>
+        <h2>The original mockups</h2>
+        <p>The full design boards as they were made. Tap any one to see it bigger.</p>
+      </div>
+      <ul class="boards">
+        <li><button type="button" class="board-btn" id="board-1" data-src="img/board-5.jpg" data-alt="Cream mug mockup and full print layout">
+          <div class="frame"><img src="img/board-5.jpg" alt="Cream mug mockup and full print layout" loading="lazy"></div><span>Cream mug and print layout</span></button></li>
+        <li><button type="button" class="board-btn" id="board-2" data-src="img/board-6.jpg" data-alt="Redwood and olive green mug mockups with layouts and color codes">
+          <div class="frame"><img src="img/board-6.jpg" alt="Redwood and olive green mug mockups with layouts and color codes" loading="lazy"></div><span>Redwood and olive mugs</span></button></li>
+        <li><button type="button" class="board-btn" id="board-3" data-src="img/pins-board.jpg" data-alt="Enamel pins board">
+          <div class="frame"><img src="img/pins-board.jpg" alt="Enamel pins board" loading="lazy"></div><span>Enamel pins</span></button></li>
+        <li><button type="button" class="board-btn" id="board-4" data-src="img/board-tee.jpg" data-alt="Phở Club tee mockup with print close-ups">
+          <div class="frame"><img src="img/board-tee.jpg" alt="Phở Club tee mockup with print close-ups" loading="lazy"></div><span>Phở Club tee</span></button></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- TO CONFIRM -->
+  <section class="item band" id="confirm">
+    <div class="inner">
+      <div class="section-head">
+        <span class="eyebrow">Before we produce</span>
+        <h2>Still to confirm</h2>
+        <p>Nothing here is final yet. These are the decisions we need before anything goes public.</p>
+      </div>
+      <ul class="confirm-grid">
+        <li><span class="box" aria-hidden="true"></span><div><strong>Prices</strong><p>Selling price for the mug, each pin or the pin set, and the tee.</p></div></li>
+        <li><span class="box" aria-hidden="true"></span><div><strong>Quantities and supplier</strong><p>How many of each to order, and lead time so stock arrives before the holidays.</p></div></li>
+        <li><span class="box" aria-hidden="true"></span><div><strong>Launch date</strong><p>When the merch goes on sale in branches.</p></div></li>
+        <li><span class="box" aria-hidden="true"></span><div><strong>Stock per branch</strong><p>Whether all four branches carry every item and every mug color.</p></div></li>
+        <li><span class="box" aria-hidden="true"></span><div><strong>Tee sizes and fabric</strong><p>Size run, fabric weight and whether there is a front print.</p></div></li>
+        <li><span class="box" aria-hidden="true"></span><div><strong>Pins: set or singles</strong><p>Sold as a set of six, one by one, or both.</p></div></li>
+        <li><span class="box" aria-hidden="true"></span><div><strong>"PHO" vs "PHỞ" on the tee</strong><p>The tee prints PHO without the accent while our logo uses PHỞ. Decide which one we want.</p></div></li>
+        <li><span class="box" aria-hidden="true"></span><div><strong>Clean the cream mug file</strong><p>The cream mockup shows a faint extra logo near the iced coffee and near the lanterns. Make sure it's not in the print file.</p></div></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="inner">
+    <span class="tagline">Every bite is a journey to Vietnam.</span>
+    <span>Phở Saigon · Calamba · Sta. Rosa · Alabang · BGC</span>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Mockup board">
+  <button type="button" id="lightboxClose">Close</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<script>
+(function () {
+  var colors = {
+    cream:   { name: "Cream & terracotta", photo: "img/mug-cream.jpg",   wrap: "img/wrap-cream.jpg",   alt: "Phở Saigon mug in cream with a terracotta inside and handle" },
+    redwood: { name: "Redwood",            photo: "img/mug-redwood.jpg", wrap: "img/wrap-redwood.jpg", alt: "Phở Saigon mug in deep redwood with a cream inside" },
+    olive:   { name: "Olive green",        photo: "img/mug-olive.jpg",   wrap: "img/wrap-olive.jpg",   alt: "Phở Saigon mug in olive green with a cream inside" }
+  };
+  Object.keys(colors).forEach(function (k) { new Image().src = colors[k].photo; new Image().src = colors[k].wrap; });
+
+  var photo = document.getElementById("mugPhoto");
+  var wrap = document.getElementById("wrapImg");
+  var label = document.getElementById("colorName");
+  var buttons = document.querySelectorAll(".swatch");
+
+  function swap(img, src, alt) {
+    if (img.getAttribute("src") === src) return;
+    img.classList.add("fading");
+    setTimeout(function () { img.src = src; img.alt = alt; img.classList.remove("fading"); }, 160);
+  }
+  function select(key) {
+    var c = colors[key]; if (!c) return;
+    buttons.forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.key === key)); });
+    label.textContent = c.name;
+    swap(photo, c.photo, c.alt);
+    swap(wrap, c.wrap, "The full illustrated print of the " + c.name.toLowerCase() + " mug, laid flat");
+  }
+  buttons.forEach(function (b) { b.addEventListener("click", function () { select(b.dataset.key); }); });
+
+  // Lightbox for mockup boards
+  var box = document.getElementById("lightbox");
+  var boxImg = document.getElementById("lightboxImg");
+  var closeBtn = document.getElementById("lightboxClose");
+  var lastFocus = null;
+  function open(src, alt) { lastFocus = document.activeElement; boxImg.src = src; boxImg.alt = alt; box.hidden = false; closeBtn.focus(); }
+  function close() { box.hidden = true; boxImg.src = ""; if (lastFocus) lastFocus.focus(); }
+  document.querySelectorAll(".board-btn").forEach(function (b) {
+    b.addEventListener("click", function () { open(b.dataset.src, b.dataset.alt); });
+  });
+  closeBtn.addEventListener("click", close);
+  box.addEventListener("click", function (e) { if (e.target === box) close(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !box.hidden) close(); });
+})();
+</script>
+
+</body></html>
